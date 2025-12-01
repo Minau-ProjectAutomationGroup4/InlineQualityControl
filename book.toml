@@ -3,3 +3,6 @@ authors = ["352702"]
 language = "en"
 src = "src"
 title = "ProjectInlineQualityControl"
+
+[preprocessor.plantuml]
+plantuml-cmd='http://localhost:8080'
