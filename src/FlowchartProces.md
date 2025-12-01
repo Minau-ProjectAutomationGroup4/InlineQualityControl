@@ -1,19 +1,19 @@
-# Flowchart of proces
+# Chapter 1 - Flowchart Proces
 ```plantuml
 @startuml Proces of Inline Quality Control
 Start
 :Transport bottle;
 :Bottle in fov of camera;
 :Take image of bottle;
-:process image;
-:Analyse bottle;
+:Process image;
+:Analyse image;
 if (Bottle has defect?) then (yes)
   :Push bottle to \nnext conveyer;
-  :Continue transport of\n bottle to packaging;
+  :Continue transport of\nsbottle to packaging;
   stop
 else (no)
-  :Let the bottle continue\n on current conveyer;
-  :Bottle falls in box\n with rejects;
+  :Let the bottle continue\non current conveyer;
+  :Bottle falls in box\nwith rejects;
   stop
  
 
